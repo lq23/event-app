@@ -1,0 +1,363 @@
+@font-face {
+    font-family: 'GreekHouse Symbolized';
+    src: url('./C:\Users\laren\Downloads\greekhousesymbolized.zip\GreekHouse Symbolized_Free.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Lilita One';
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+    src: url('./fonts/LilitaOne.woff2') format('woff2');
+}
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: url('/Screen.png') no-repeat center center/cover;
+    background-size: cover; /* Ensures the image covers the entire viewport */
+    background-attachment: fixed;
+    background-position: bottom center;
+    font-family: BungeeTint, sans-serif;
+}
+h1 {
+    font-family: 'Bungee', sans-serif; /* Use a custom font for the message */
+    color: rgb(255, 255, 255); /* Adjust text color for better visibility */
+    text-align: center; /* Center the text horizontally */
+    margin-top: 0.6%; /* Push the message down vertically */
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.7); /* Add a shadow for better readability */
+    font-size: 10rem; /* Adjust font size for better visibility */
+    text-transform: uppercase; /* Make the text uppercase */
+    letter-spacing: 0.1em; /* Add some spacing between letters */
+    animation: fadeIn 2s ease-in-out; /* Add a fade-in animation */
+    
+}
+h2 {
+    font-family: 'Bungee', sans-serif; /* Use a custom font for the message */
+    color: white; /* Adjust text color for better visibility */
+    text-align: center; /* Center the text horizontally */
+    margin-top: 0; /* Push the message down vertically */
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.7); /* Add a shadow for better readability */
+    font-size: 2rem;
+    
+}
+h5{
+    font-family: 'Bungee', sans-serif; /* Use a custom font for the message */
+    color: white; /* Adjust text color for better visibility */
+    text-align: center; /* Center the text horizontally */
+    margin-top: 50%; /* Push the message down vertically */
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.7); /* Add a shadow for better readability */
+    font-size: 2rem;
+    
+}
+
+.symbol {
+    font-family: 'GreekHouse Symbolized', serif; /* Use a different font for the symbols */
+    text-align: center; /* Center the symbols horizontally */
+    margin-top: 5%; /* Push the symbols down vertically */
+    color: gold; /* Optional: Change the color of the symbols */
+    font-size: 21rem; /* Optional: Adjust the size of the symbols */
+    animation: bounce 1s infinite;
+    text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.7);
+    margin-right: 5%;
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem; /* Space between buttons */
+    margin-top: 2rem; /* Space between the text and buttons */
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-success {
+    background-color: #28a745;
+    color: white;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    color: white;
+}
+
+button:hover {
+    opacity: 0.8; /* Slightly fade the button on hover */
+    transform: scale(1.05); /* Slightly enlarge the button on hover */
+}
+.login-form {
+    margin-top: 2rem;
+    text-align: center;
+  }
+  
+  .text-box {
+    display: block;
+    margin: 1rem auto;
+    padding: 10px;
+    font-size: 1.2rem;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+  }
+  
+  .text-box:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .login-form h2 {
+    font-family: 'Bungee', sans-serif;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  }
+  .back-button.back-brother{
+    display: flex;
+    align-items: center;
+    padding: 8px 10px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff0000;
+    color: white;
+    cursor: pointer;
+    margin: 0% auto;
+    margin-right: 45%;
+    margin-top: -2.399%;
+
+  }
+  
+  .back-button.back-sister{
+    display: flex;
+    align-items: center;
+    padding: 8px 10px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff0000;
+    color: white;
+    cursor: pointer;
+    margin: 0% auto;
+    margin-right: 45%;
+    margin-top: -2.399%;
+  }
+  .back-button.back-sister-password{
+    display: flex;
+    align-items: center;
+    padding: 8px 10px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff0000;
+    color: white;
+    cursor: pointer;
+    margin: 0% auto;
+    margin-right: 45%;
+    margin-top: -2.399%;
+  }
+
+.next-back-button.back-sister-password{
+    display: flex;
+    align-items: center;
+    padding: 8px 10px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff0000;
+    color: white;
+    cursor: pointer;
+    margin: 0% auto;
+    margin-right: 45%;
+    margin-top: -2.399%;
+  }
+
+  .login-button.login-brother {
+    display: flex;
+    align-items: center;
+    padding: 8px 10px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffee00;
+    color: white;
+    cursor: pointer;
+    margin: 0% auto;
+    margin-left: 45%;
+    &:hover {
+      background-color: #e6d800;
+    }
+  }
+   .next-button.next-sister {
+    display: flex;
+    align-items: center;
+    padding: 8px 10px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    margin: 0% auto;
+    margin-left: 45%
+  }
+  .login-button.login-sister {
+    display: flex;
+    align-items: center;
+    padding: 8px 10px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    margin: 0% auto;
+    margin-left: 45%
+  }
+  .error-message {
+    color: red;
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 1rem;
+  }
+  .back-button:hover {
+    background-color: #990707;
+    
+  }
+  
+.login-button:hover {
+    background-color: #0056b3;
+  }
+
+.intro-title {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  gap: 0.5rem;
+  font-size: 10rem;
+  font-family: 'Bungee', sans-serif;
+  flex-wrap: nowrap;
+  white-space: nowrap;
+  margin-right: 20%;
+  
+}
+
+.animated-text .word {
+  opacity: 0;
+  transform: translateY(30px);
+  display: inline-block;
+  transition: opacity 0.4s ease, transform 0.4s ease;
+  color: inherit;
+  text-shadow: inherit;
+}
+
+/* Custom glow for the text reveal */
+.animated-text.glow .word {
+  animation: glowText 1.2s infinite alternate;
+}
+
+@keyframes glowText {
+  from {
+    text-shadow: 0 0 10px #0ff;
+  }
+  to {
+    text-shadow: 0 0 25px #0ff, 0 0 40px #0ff;
+  }
+}
+
+/* Delay-appear Sigma Chi symbol */
+.symbol-delay {
+  opacity: 0;
+  transform: translateX(-40px);
+  transition: all 0.8s ease;
+  color: rgb(29, 25, 1); /* You can change to #ffd700 or white */
+  text-shadow: 0 0 2px rgba(255, 217, 0, 0.993); /* ✨ faint glow start */
+  position: relative;
+  top: 0px; /* Adjust vertical position */
+  margin-left: -64%;
+
+}
+
+.symbol-delay.plugged {
+  opacity: 1;
+  transform: translateX(0);
+  transition: all 0.5s ease;
+}
+
+
+.symbol-delay.glow {
+
+  animation: glowSymbol 3.5s infinite alternate;
+}
+
+@keyframes glowSymbol {
+  from {
+    text-shadow: 0 0 18px rgb(160, 138, 11);
+  }
+  to {
+    text-shadow: 0 0 20px rgb(241, 205, 0), 0 0 30px rgb(255, 217, 0);
+  }
+}
+
+.brother-question-container.hidden {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+  pointer-events: none;
+}
+
+.brother-question-container.fade-in-up {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: all;
+}
+
+.main-title {
+  font-size: 4rem;
+  transition: all 0.5s ease-in-out;
+}
+
+.minimized-title {
+  font-size: -1rem;
+  transform: translateY(-178px);
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: bottom;
+  padding: 10px;
+  ;
+  color: white;
+}
+.next-button.next-frat {
+    display: flex;
+    align-items: center;
+    padding: 8px 10px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    margin: 0% auto;
+    margin-left: 45%;
+  }
+   .back-button.back-frat{
+    display: flex;
+    align-items: center;
+    padding: 8px 10px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff0000;
+    color: white;
+    cursor: pointer;
+    margin: 0% auto;
+    margin-right: 45%;
+    margin-top: -2.399%;
+  }
