@@ -782,7 +782,7 @@ function userCanSeeEvent(event: Event, currentUser: any) {
       {/* Dropdown Row */}
       <Grid container spacing={2} justifyContent="left" sx={{ mb: -1 }}>
         {/* Day Dropdown */}
-        <Grid item>
+        <Grid>
           <FormControl
             variant="filled"
             size="small"
@@ -1029,7 +1029,7 @@ function userCanSeeEvent(event: Event, currentUser: any) {
         </Dialog>
 
         {/* Month Dropdown */}
-        <Grid item>
+        <Grid >
           <FormControl
             variant="filled"
             size="small"
@@ -1061,7 +1061,7 @@ function userCanSeeEvent(event: Event, currentUser: any) {
         </Grid>
 
         {/* Year Dropdown */}
-        <Grid item>
+        <Grid >
           <FormControl
             variant="filled"
             size="small"
@@ -1100,8 +1100,8 @@ function userCanSeeEvent(event: Event, currentUser: any) {
       <Grid container>
         {weekdays.map((wd) => (
           <Grid
-            item
-            xs={1}
+
+            size={{ xs: 1 }}
             key={wd}
             sx={{
               textAlign: "center",
@@ -1868,8 +1868,7 @@ function userCanSeeEvent(event: Event, currentUser: any) {
 
           return (
             <Grid
-              item
-              xs={1}
+              size= {{ xs: 1 }}
               key={iso}
               onClick={() => {
                 setCurrentDate(day);

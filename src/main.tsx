@@ -5,7 +5,7 @@ import App from "./App.tsx";
 import { UserProvider } from "./Components/UserContext.tsx";
 import { NotificationsProvider } from "./Components/NotificationsContext.tsx";
 import { LoginProvider } from "./Components/LgoinContext.tsx";
-
+import './Background.css';
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
