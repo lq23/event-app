@@ -52,13 +52,11 @@ h5{
 
 .symbol {
     font-family: 'GreekHouse Symbolized', serif; /* Use a different font for the symbols */
-    
-    margin-top: 5%; /* Push the symbols down vertically */
     color: gold; /* Optional: Change the color of the symbols */
     font-size: 201%; /* Optional: Adjust the size of the symbols */
     animation: bounce 1s infinite;
     text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.7);
-    margin-right: 5%;
+    
 }
 .button-container {
     display: flex;
@@ -240,8 +238,12 @@ button:hover {
   font-family: 'Bungee', sans-serif;
   flex-wrap: nowrap;
   white-space: nowrap;
-  margin-right: 20%;
-  
+  right: 20%;
+  position: static;
+  margin: 8rem auto;
+  top: 10%;
+  left: 20%;
+  padding-left: 9vw;
 }
 
 .animated-text .word {
@@ -274,11 +276,13 @@ button:hover {
   transition: all 0.8s ease;
   color: rgb(29, 25, 1); /* You can change to #ffd700 or white */
   text-shadow: 0 0 2px rgba(255, 217, 0, 0.993); /* ✨ faint glow start */
-  position: relative;
-  top: 0px; /* Adjust vertical position */
-  margin-left: -64%;
+  position: absolute;
+  right: 65%;
+  bottom: 55%;
 
 }
+
+
 
 .symbol-delay.plugged {
   opacity: 1;
@@ -312,6 +316,7 @@ button:hover {
   opacity: 1;
   transform: translateY(0);
   pointer-events: all;
+  
 }
 
 .main-title {
