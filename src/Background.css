@@ -277,8 +277,9 @@ button:hover {
   color: rgb(29, 25, 1); /* You can change to #ffd700 or white */
   text-shadow: 0 0 2px rgba(255, 217, 0, 0.993); /* ✨ faint glow start */
   position: absolute;
-  right: 64%;
+  right: 65%;
   bottom: 50%;
+  padding-right: 1vw;
 
 }
 
