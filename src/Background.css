@@ -1,7 +1,11 @@
 @font-face {
-    font-family: 'GreekHouse Symbolized';
-    src: url('/fonts/GreekHouse_Symbolized_Free.ttf') format('truetype');
+  font-family: 'GreekHouse Symbolized';
+  src:
+    url('/fonts/GreekHouse_Symbolized_Free.woff2') format('woff2'),
+    url('/fonts/GreekHouse_Symbolized_Free.ttf') format('truetype');
+  font-display: swap;
 }
+
 @font-face {
     font-family: 'Lilita One';
     font-weight: 400;
