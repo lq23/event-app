@@ -243,7 +243,7 @@ button:hover {
   margin: 8rem auto;
   top: 10%;
   left: 20%;
-  padding-left: 9vw;
+  padding-left: 2vw;
 }
 
 .animated-text .word {
@@ -277,7 +277,7 @@ button:hover {
   color: rgb(29, 25, 1); /* You can change to #ffd700 or white */
   text-shadow: 0 0 2px rgba(255, 217, 0, 0.993); /* ✨ faint glow start */
   position: absolute;
-  right: 65%;
+  right: 6500%;
   bottom: 50%;
   padding-right: 1vw;
 
