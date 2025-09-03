@@ -1,8 +1,8 @@
 @font-face {
   font-family: 'GreekHouse Symbolized';
-  src:
-    url('/fonts/GreekHouse_Symbolized_Free.woff2') format('woff2'),
-    url('/fonts/GreekHouse_Symbolized_Free.ttf') format('truetype');
+  src: url('/fonts/GreekHouse_Symbolized_Free.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
   font-display: swap;
 }
 
@@ -66,6 +66,7 @@ h5{
     display: inline-block;
     vertical-align: middle;
 }
+
 .button-container {
     display: flex;
     justify-content: center;
