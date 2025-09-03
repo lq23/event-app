@@ -1,17 +1,13 @@
 @font-face {
-  font-family: 'GreekHouse Symbolized';
-  src: url('/fonts/GreekHouse_Symbolized_Free.ttf') format('truetype');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
+    font-family: 'GreekHouse Symbolized';
+    src: url('./C:\Users\laren\Downloads\greekhousesymbolized.zip\GreekHouse Symbolized_Free.ttf') format('truetype');
 }
-
 @font-face {
     font-family: 'Lilita One';
     font-weight: 400;
     font-style: normal;
     font-display: swap;
-    src: url('/fonts/LilitaOne.woff2') format('woff2');
+    src: url('./fonts/LilitaOne.woff2') format('woff2');
 }
 body {
     margin: 0;
@@ -55,18 +51,15 @@ h5{
 }
 
 .symbol {
-    font-family: 'GreekHouse Symbolized'; /* Use a different font for the symbols */
+    font-family: 'GreekHouse Symbolized', serif; /* Use a different font for the symbols */
     text-align: center; /* Center the symbols horizontally */
     margin-top: 5%; /* Push the symbols down vertically */
     color: gold; /* Optional: Change the color of the symbols */
-    font-size: 21rem; /* Optional: Adjust the size of the symbols */
+    font-size: 201%; /* Optional: Adjust the size of the symbols */
     animation: bounce 1s infinite;
     text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.7);
     margin-right: 5%;
-    display: inline-block;
-    vertical-align: middle;
 }
-
 .button-container {
     display: flex;
     justify-content: center;
